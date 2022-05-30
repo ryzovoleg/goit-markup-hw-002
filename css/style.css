@@ -56,7 +56,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.header-logo span {color: var(--accent-color)}
+.logo-footer span {color: var(--accent-color)}
 
 .menu-link {
     color: var(--primary-font-color);
@@ -169,14 +169,17 @@ body {
 }
 
 .logo-footer span {color: var(--accent-color);}
-.contact-address, .contact-email, .contact-tel {
+.contact-address,
+.contact-email,
+.contact-tel {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
 }
-.contact-email, .contact-tel {color: var(--description-font-color);}
+.contact-email,
+.contact-tel {color: var(--description-font-color);}
 
 .portfolio-btn {
     background: var(--background-color-additional);
