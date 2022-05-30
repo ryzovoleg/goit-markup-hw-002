@@ -56,7 +56,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.logo span {color: var(--accent-color)}
+.header-logo span {color: var(--accent-color)}
 
 .menu-link {
     color: var(--primary-font-color);
@@ -72,8 +72,10 @@ body {
     color: var(--description-font-color);
 }
 
-.menu-link:hover, .menu-link:focus,
-.header-contact:hover {
+.menu-link:hover,
+.menu-link:focus,
+.header-contact:hover,
+.header-contact:focus {
     color: var(--accent-color);
 }
 
@@ -99,7 +101,6 @@ body {
     background: var(--accent-color);
     border-style: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    top: 430px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -132,7 +133,6 @@ body {
 
 .team-member-card {
     width: 270px;
-    height: 368px;
     background-color: var(--background-color-primary);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -160,6 +160,7 @@ body {
 }
 
 .logo-footer {
+    font-family: var(--logo-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -189,7 +190,8 @@ body {
     cursor: pointer;
 }
 
-.portfolio-btn:hover, .portfolio-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     background: var(--accent-color);
     color: var(--secondary-font-color);
 }
@@ -199,14 +201,13 @@ body {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     width: 370px;
-    height: 404px;
 }
 
 .project-name {
     color: var(--primary-font-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.89;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
