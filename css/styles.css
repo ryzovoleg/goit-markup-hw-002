@@ -28,6 +28,8 @@ body {
     font-style: normal;
 }
 
+
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -48,6 +50,8 @@ body {
     color: var(--primary-font-color);
 }
 
+
+
 .logo {
     font-family: var(--logo-font);
     color: var(--primary-font-color);
@@ -56,7 +60,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.logo-footer span {color: var(--accent-color)}
+.logo span {color: var(--accent-color);}
 
 .menu-link {
     color: var(--primary-font-color);
@@ -72,12 +76,12 @@ body {
     color: var(--description-font-color);
 }
 
-.menu-link:hover,
-.menu-link:focus,
-.header-contact:hover,
-.header-contact:focus {
+.menu-link:hover, .menu-link:focus,
+.header-contact:hover {
     color: var(--accent-color);
 }
+
+
 
 .hero {
     background-color: var(--background-color-secondary);
@@ -99,8 +103,9 @@ body {
 
 .modal-btn {
     background: var(--accent-color);
-    border-style: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    top: 430px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -112,6 +117,8 @@ body {
     border: none;
     cursor: pointer;
 }
+
+
 
 .advantages-title {
     color: var(--primary-font-color);
@@ -127,17 +134,19 @@ body {
     color: var(--description-font-color);
 }
 
+
+
 .team-section {
     background-color: var(--background-color-additional);
 }
 
 .team-member-card {
     width: 270px;
+    height: 368px;
     background-color: var(--background-color-primary);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-
 .team-member-name {
     font-weight: 500;
     font-size: 16px;
@@ -146,7 +155,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-font-color);
 }
-
 .team-member-position {
     font-size: 16px;
     line-height: 1.19;
@@ -155,31 +163,30 @@ body {
     color: var(--description-font-color);
 }
 
+
+
 .footer {
     background-color: var(--background-color-secondary);
 }
 
 .logo-footer {
-    font-family: var(--logo-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
 }
-
 .logo-footer span {color: var(--accent-color);}
-.contact-address,
-.contact-email,
-.contact-tel {
+.contact-address, .contact-email, .contact-tel {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
 }
-.contact-email,
-.contact-tel {color: var(--description-font-color);}
+.contact-email, .contact-tel {color: var(--description-font-color);}
+
+
 
 .portfolio-btn {
     background: var(--background-color-additional);
@@ -193,8 +200,7 @@ body {
     cursor: pointer;
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus {
+.portfolio-btn:hover, .portfolio-btn:focus {
     background: var(--accent-color);
     color: var(--secondary-font-color);
 }
@@ -204,13 +210,14 @@ body {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     width: 370px;
+    height: 404px;
 }
 
 .project-name {
     color: var(--primary-font-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
+    line-height: 1.89;
     letter-spacing: 0.06em;
 }
 
