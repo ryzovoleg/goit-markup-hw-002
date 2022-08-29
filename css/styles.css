@@ -201,12 +201,12 @@ body {
 }
 
 .portfolio-btn:hover, .portfolio-btn:focus {
-    background: var(--accent-color);
+    background-color: var(--accent-color);
     color: var(--secondary-font-color);
 }
 
 .project-card {
-    background-color: var(--background-color-primary);
+    background: var(--background-color-primary);
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     width: 370px;
