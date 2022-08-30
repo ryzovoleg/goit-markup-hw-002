@@ -184,7 +184,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
 }
-.contact-email, .contact-tel {color: var(--description-font-color);}
+.contact-email, .contact-tel { color: var(--description-font-color);}
 
 
 
